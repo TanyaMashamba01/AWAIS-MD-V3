@@ -1,7 +1,7 @@
 /*
 
 Plugin Author: *@awaisxd*
-Follow Us: *AWAISXD*
+Follow Us: *Joshuamambo1 NetKing*
 
 */
 
@@ -51,7 +51,7 @@ cmd({
             `🔽 *Reply with your choice:*\n` +
             `1.1 *Audio Type* 🎵\n` +
             `1.2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "𓆩𝑨𝑾𝑨𝑰𝑺𝑿𝑫𓆪"}`;
+            `${config.FOOTER || "𓆩𝑱𝑶𝑺𝑯𝑲𝑰𝑵𝑮 𝑵𝒆𝒕𝑲𝒊𝒏𝒈𓆪"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
