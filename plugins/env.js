@@ -13,13 +13,13 @@ cmd({
     alias: ["setting", "allvar"],
     desc: "Settings of bot",
     category: "menu",
-    react: "⤵️",
+    react: "⤵️❤️‍🔥🇿🇼",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭━━━〔 *AWAIS-MD* 〕━━━┈⊷
+        let envSettings = `╭━━━〔 *Joshuamambo1 NetKing-MD* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 🗿*
 ┃▸└───────────···๏
@@ -47,15 +47,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://github.com/Awais-star-a11y/TESTING-REPO/raw/refs/heads/main/IMG-20250409-WA0093.jpg' }, // Image URL
+                image: { url: 'https://i.postimg.cc/4NdSqms8/MidKing.jpg' }, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: "AWAIS MD",
+                        newsletterJid: '263777756184@s.whatsapp.net',
+                        newsletterName: "MɪᴅKɪɴɢ1ᴠ1",
                         serverMessageId: 143
                     }
                 }
