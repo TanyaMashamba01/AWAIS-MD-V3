@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Awais-star-a11y/AWAIS-MD-V3';
+    const githubRepoURL = 'https://github.com/Joshuamambo1/AWAIS-MD';
 
     try {
         // Extract username and repo name from the URL
@@ -31,15 +31,15 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://github.com/Awais-star-a11y/TESTING-REPO/raw/refs/heads/main/IMG-20250409-WA0093.jpg` },
+            image: { url: `https://i.postimg.cc/4NdSqms8/MidKing.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363369260614615@newsletter',
-                    newsletterName: 'ᴀᴡᴀɪs ᴍᴅ',
+                    newsletterJid: '263777756184@s.whatsapp.net',
+                    newsletterName: 'JᴏsʜᴜᴀMᴀᴍʙᴏ NᴇᴛKɪɴɢ',
                     serverMessageId: 143
                 }
             }
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/Awais-star-a11y/TESTING-REPO/raw/refs/heads/main/VID-20250118-WA0022.mp3' },
+            audio: { url: 'https://files.catbox.moe/vpnqp7.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363369260614615@newsletter',
-                    newsletterName: 'ᴀᴡᴀɪs ᴍᴅ',
+                    newsletterJid: '263777756184@s.whatsapp.net',
+                    newsletterName: 'Jᴏsʜᴜᴀᴍᴀᴍʙᴏ NᴇᴛKɪɴɢ',
                     serverMessageId: 143
                 }
             }
