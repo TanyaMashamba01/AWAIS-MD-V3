@@ -85,6 +85,6 @@ async (conn, mek, m, { from, args, q, reply, react }) => {
     } catch (e) {
         console.error("Error in DeepSeek AI command:", e);
         await react("❌");
-        reply("An error occurred while communicating with DeepSeek AI.");
+        reply("An error occurred while communicating with DeepSeek AI made by Joshuamambo NetKing.");
     }
 });
