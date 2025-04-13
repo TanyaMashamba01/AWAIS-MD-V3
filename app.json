@@ -1,7 +1,7 @@
 {
-  "name": "AWAIS-MD",
+  "name": "Joshuamambo1 EcounBan-MD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀᴡᴀɪs ᴍᴅ",
-  "logo": "https://github.com/Awais-star-a11y/TESTING-REPO/raw/refs/heads/main/IMG-20250409-WA0093.jpg",
+  "logo": "https://i.postimg.cc/4NdSqms8/MidKing.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -10,25 +10,25 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": ""
+      "value": "5HkkGJDI#7050-Z9888jS1FTH4oDHTp-RYQ9EeOCdZmz6oQt98VI"
     },  
     
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://github.com/Awais-star-a11y/TESTING-REPO/raw/refs/heads/main/IMG-20250409-WA0093.jpg"
+      "value": "https://i.postimg.cc/4NdSqms8/MidKing.jpg"
     }, 
     
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "•°- ß Ə ʌ υ ʈ ı ƒ υ ɭ - °•🩷🌸🤤.!!"
+      "value": "•𝑱𝒐𝒔𝒉𝒖𝒂𝒎𝒂𝒎𝒃𝒐 𝑵𝒆𝒕𝑲𝒊𝒏𝒈!!"
     },
     
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": true,
-      "value": "."
+      "value": "#"
     },
     
     "MODE": {
@@ -39,32 +39,32 @@
 
     "AUTO_VOICE": {
       "description": "Make it true if you want bot auto voice.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     }, 
 
     "AUTO_REPLY": {
       "description": "Make it true if you want bot auto reply.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     }, 
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
 
     "AUTO_STICKER": {
       "description": "Make it true if you want bot auto sticker.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     }, 
 
     "AUTO_READ_STATUS": {
       "description": "Make it true if you want bot auto auto_read_status.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     }, 
 
     "ANTI_LINK": {
@@ -87,20 +87,20 @@
 
     "FAKE_RECORDING": {
       "description": "Make it true if you want bot fake record.",
-      "required": true,
+      "required": false,
       "value": "false"
     },
 
     "AUTO_REACT": {
       "description": "Make it true if you want bot AutoReact.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     },
 
     "OWNER_REACT": {
       "description": "Make it true if you want bot OwnerReact.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     
     }, 
 
@@ -113,59 +113,59 @@
   "AUTO_STATUS_REPLY": {
       "description": "Make it true if want automatic status reply .",
       "required": false,
-      "value": "true"
+      "value": "false"
     },    
 
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "ᴀᴡᴀɪs ᴍᴅ"
+      "value": "Joshuamambo1 NetKing"
     }, 
 
     "HEART_REACT": {
       "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
-      "required": true,
+      "required": false,
       "value": "false"
     }, 
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
-      "required": true,
+      "required": false,
       "value": "false"
     }, 
     "CAPTION": {
       "description": "enter your caption if you want to show on menu.",
       "required": true,
-      "value": "*ᴘᴏᴡᴅᴇʀᴇᴅ ʙʏ ᴀᴡᴀɪs ᴍᴅ*"
+      "value": "*Joshuamambo1 MidKing❤️‍🔥*"
     }, 
     "AUTO_STATUS__MSG": {
       "description": "enter your caption if you want to show on status reply.",
       "required": true,
-      "value": "𝒚𝒐𝒖𝒓 𝒔𝒕𝒂𝒕𝒖𝒔 𝒔𝒆𝒆𝒏 𝒋𝒖𝒔𝒕 𝒏𝒐𝒘 𝒃𝒚 𝒂𝒘𝒂𝒊𝒔 𝒎𝒅"
+      "value": "𝒚𝒐𝒖𝒓 𝒔𝒕𝒂𝒕𝒖𝒔 𝒔𝒆𝒆𝒏 𝒋𝒖𝒔𝒕 𝒏𝒐𝒘 𝒃𝒚 𝑱𝒐𝒔𝒉𝒖𝒂𝒎𝒂𝒎𝒃𝒐 𝑵𝒆𝒕𝑲𝒊𝒏𝒈 𝒎𝒅"
     },    
 
     "CUSTOM_REACT_EMOJIS": {
       "description": "set customs emojis that bot will react.",
-      "required": true,
+      "required": false,
       "value": "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍"
     },
     
     "CUSTOM_REACT": {
       "description": "customs reaction emojis that bot will react.",
-      "required": true,
+      "required": false,
       "value": "false"
     },
 
     "AUTHOR": {
       "description": "stickerpack author name",
       "required": true,
-      "value": "AWAIS MD"
+      "value": "Joshuamambo1 MidKingMD"
     },
 
     "PACKNAME": {
       "description": "stickerpack pack name",
       "required": true,
-      "value": "created by"
+      "value": "𝒄𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 Jᴏsʜᴋɪɴɢ01"
     },
 
     "ANTI_DEL_PATH": {
