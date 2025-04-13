@@ -4,16 +4,16 @@ const os = require("os")
 const {runtime} = require('../lib/functions')
 cmd({
     pattern: "system",
-    react: "♠️",
+    react: "❤️‍🔥🇿🇼",
     alias: ["uptime2","status","runtime2"],
-    desc: "cheack uptime",
+    desc: "check uptime everyday time",
     category: "main",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `*╭──────────●●►*
-*AWAIS MD UPTIME LIST↷*
+*MɪDKING ᴊᴏsʜ MD UPTIME LIST↷*
 
 *_UPTIME:➠_*  ${runtime(process.uptime())}
 
@@ -21,7 +21,7 @@ let status = `*╭──────────●●►*
 
 *_HOSTNAME:➠_* ${os.hostname()}
 
-*_OWNER:➠_* *ᴀᴡᴀɪs ᴍᴅ*
+*_OWNER:➠_* *Jᴋsʜᴜᴀᴍᴀᴍʙʟ*
 *╰──────────●●►*
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:`${status}`},{quoted:mek})
